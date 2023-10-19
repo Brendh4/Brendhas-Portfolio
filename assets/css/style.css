@@ -9,30 +9,6 @@ body {
   line-height: 1.5;
 }
 
-/* Nav 
-
-class = header h1
-
-class = nav
-
-class="hero-banner"
-
-class="page-wrapper"
-
-class="page-section"
-
-id="about"
-
-id="work"
-
-class="page-section contact"
-
-id="contact"
-
-
-*/
-
-
 h1,
 h2,
 h3,
@@ -45,6 +21,70 @@ h6 {
 p {
   margin: 0;
 }
+
+/* Where I am adding my stuff, may need to restructure after */
+/* pick 4 main style colors and define them */
+h1 {   
+  float: left;
+  padding: 20px 30px;
+  align-content: center;
+  /* margin-top: -; */
+  }
+
+nav {
+  display: flex;
+  background-color:rgb(94, 84, 96) ;
+  /* float: right; */
+}
+
+nav a {
+  color: rgb(230, 215, 233) ;
+  padding: 20px 30px;
+  text-decoration: none;
+  align-items: right;
+}
+
+nav a:hover {
+  background-color: ;
+  color: ;
+}
+
+.hero-banner {
+  background: url("../images/02-hero-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+  background-color: blue;
+}
+
+.page-wrapper {
+
+}
+
+.page-section {
+
+}
+
+#about {
+
+}
+
+#work {
+
+}
+
+.page-section-contact{
+
+}
+
+#contact {
+
+}
+
+
+*/
 
 
 /* 
